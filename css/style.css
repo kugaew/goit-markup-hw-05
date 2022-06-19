@@ -316,38 +316,6 @@ ul {
     background-color: #F5F4FA;
 }
 
-/*+++++ способ 2 иконка через before +++++++*/
-
-/* .feature-list-item::before {
-    display: block;
-    content: "";
-    height: 120px;
-    margin-bottom: 30px;
-    border-radius: 4px;
-    
-    background-color: #F5F4FA;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.icon-details::before {
-    background-image: url(../images/features_01_details.svg);
-}
-
-
-
-.icon-time::before {
-    background-image: url(../images/features_02_time.svg);
-}
-
-.icon-planing::before {
-    background-image: url(../images/features_03_planing.svg);
-}
-
-.icon-technology::before {
-    background-image: url(../images/features_04_technology.svg);
-} */
-
 /*+++++++++++++++++++++++++++++++++++++++++++*/
 
 .feature-list-item:not(:last-child) {
@@ -482,17 +450,6 @@ ul {
     color: var(--team-social-icon-color-aktived); /*способ изменения цвета 1*/
 }
 
-/*--------способ изменения цвета 2*-----/
-/* .team-social-icon {
-    fill: var(--team-social-icon-color-passed);
-}
-
-.team-social-link:focus .team-social-icon,
-.team-social-link:hover .team-social-icon {
-    fill: var(--team-social-icon-color-aktived);
-} */
-/*---------------------------------------*/
-
 /*++++++++++++++++ client-main-page ++++++++++++++*/
 
 .client-list {
@@ -561,11 +518,6 @@ ul {
 .footer-contacts-list-item:not(:last-child) {
     margin-bottom: 9px;
 }
-
-/*.footer-logo:focus,
-.footer-logo:hover {
-    color: var(--action-color);
-}*/
 
 /*++++++++ Address-all-pages +++++++++*/
 
@@ -685,11 +637,6 @@ ul {
     flex-wrap: wrap;
     gap: 30px;
 }
-
-/*добавлет рамку, но на всю карточку*/
-/* .portfolio-item {
-    border-bottom: 1px solid #EEEEEE;
-} */
 
 .portfolio-border {
     border-bottom: 1px solid #EEEEEE;

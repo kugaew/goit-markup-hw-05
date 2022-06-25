@@ -314,7 +314,7 @@ ul {
     margin: -1px;
     border: 0;
     padding: 0;
-    
+
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -733,6 +733,43 @@ ul {
     font-size: 16px;
     line-height: 1.88;
     color: var(--main-text-color);
+}
+
+.portfolio-list-thumb {
+    position: relative;
+
+    overflow: hidden;
+}
+
+.portfolio-list-thumb-text {
+    position: absolute;
+    top: 100%;
+
+    display: block;
+    width: 370px;
+    height: 294px;
+    padding-top: 63px;
+    padding-right: 24px;
+    padding-bottom: 63px;
+    padding-left: 24px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+
+    color: var(--hero-btn-text-color);
+    background-image: linear-gradient(to right, rgba(33, 150, 243, 0.9), rgba(33, 150, 243, 0.9));
+
+    transition-property: transform;
+    transition-duration: var(--trans-duration);
+    transition-timing-function: var(--trans-timing);
+}
+
+.portfolio-link:hover .portfolio-list-thumb-text {
+    transform: translateY(-100%);
 }
 
 .portfolio-link {

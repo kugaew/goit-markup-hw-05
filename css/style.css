@@ -304,6 +304,10 @@ ul {
     height: 100%;
 
     background-color:  rgba(0, 0, 0, 0.2);
+
+    transition-property: opacity;
+    transition-duration: var(--trans-duration);
+    transition-timing-function: var(--trans-timing);
 }
 
 .modal {

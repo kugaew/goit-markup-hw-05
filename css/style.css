@@ -289,6 +289,11 @@ ul {
     background-color: var(--hero-btn-bcg-color-action);
 }
 
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
 .backdrop {
     position: fixed;
     top: 0;
@@ -330,6 +335,7 @@ ul {
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #FFFFFF;
+    cursor: pointer;
 }
 
 /*=============================== Main-main-pages =============================*/
